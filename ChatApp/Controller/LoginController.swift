@@ -179,7 +179,7 @@ class LoginController: UIViewController {
         nameTextField.topAnchor.constraint(equalTo: inputContainerView.topAnchor).isActive = true
         nameTextField.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
         nameTextField.heightAnchor.constraint(equalTo: inputContainerView.heightAnchor, multiplier: 1/3).isActive = true
-//        
+//
         nameSeparatorLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
         nameSeparatorLine.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
         nameSeparatorLine.leftAnchor.constraint(equalTo: inputContainerView.leftAnchor).isActive = true
